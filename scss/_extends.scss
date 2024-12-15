@@ -1,0 +1,18 @@
+@import 'mixins';
+
+%btn {
+    width: 180px;
+    height: 46px;
+    text-align: center;
+    background-color: $text-color;
+    border: 1px solid white;
+    color: #FFFFFF;
+    @include Lato-font (700, 16px);
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: $text-color;
+        border: 1px solid $text-color;
+    }
+}

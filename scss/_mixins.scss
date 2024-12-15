@@ -1,0 +1,22 @@
+@mixin flex ($direction,$justify,$align-items,$gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin RedHat-font ($weight,$size) {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+@mixin Lato-font ($weight,$size) {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+}

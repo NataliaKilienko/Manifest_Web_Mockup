@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+
+# Compiled CSS files
+css/*.css
+css/*.css.map
+
+# SCSS cache files
+.sass-cache/
+
+# Generated build files and folders
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Logs and temporary files
+*.log
+tmp/

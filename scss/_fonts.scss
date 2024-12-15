@@ -1,0 +1,62 @@
+.menu {
+    @include Lato-font (400, 14px);
+}
+
+.title {
+    @include RedHat-font (600, 48px);
+    max-width: 770px;
+}
+
+.small-title {
+    @include Lato-font (400, 16px);
+    color: $title-color;
+}
+
+.medium-title {
+    @include RedHat-font (500, 23px);
+    color: $main-color;
+}
+
+.content__text,
+.text {
+    @include Lato-font (400, 16px);
+    color: $text-color;
+}
+
+.latest-post__title {
+    @include RedHat-font (600, 28px);
+    color: $main-color;
+}
+
+.text-row {
+    @include Lato-font (400, 12px);
+    color: $title-color; 
+    
+}
+
+.most-popular__title,
+.content__title {
+    @include RedHat-font (500, 22px);
+    color: $main-color;
+}
+
+.info-title {
+    @include RedHat-font (400, 23px);
+    color: $main-color;
+}
+
+.info-text {
+    @include Lato-font (400, 19px);
+    color: $text-color;
+}
+
+.blog__title,
+.footer-title {
+    @include RedHat-font (400, 48px);
+    color: $main-color;
+}
+
+.copyright {
+    @include Lato-font (400, 12px);
+    color: $main-color; 
+}
